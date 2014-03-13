@@ -21,12 +21,17 @@ C:\Dropbox\Waterloo\Research\App\experimenting\hello\platforms\android\assets\ww
 C:\Dropbox\Waterloo\Research\App\experimenting\hello\platforms\android\assets\www\index.html \
 C:\Dropbox\Waterloo\Research\App\experimenting\hello\platforms\android\assets\www\js \
 C:\Dropbox\Waterloo\Research\App\experimenting\hello\platforms\android\assets\www\phonegap.js \
+C:\Dropbox\Waterloo\Research\App\experimenting\hello\platforms\android\assets\www\plugins \
+C:\Dropbox\Waterloo\Research\App\experimenting\hello\platforms\android\assets\www\PushNotification.js \
 C:\Dropbox\Waterloo\Research\App\experimenting\hello\platforms\android\assets\www\res \
 C:\Dropbox\Waterloo\Research\App\experimenting\hello\platforms\android\assets\www\spec \
 C:\Dropbox\Waterloo\Research\App\experimenting\hello\platforms\android\assets\www\spec.html \
 C:\Dropbox\Waterloo\Research\App\experimenting\hello\platforms\android\assets\www\css\index.css \
 C:\Dropbox\Waterloo\Research\App\experimenting\hello\platforms\android\assets\www\img\logo.png \
 C:\Dropbox\Waterloo\Research\App\experimenting\hello\platforms\android\assets\www\js\index.js \
+C:\Dropbox\Waterloo\Research\App\experimenting\hello\platforms\android\assets\www\plugins\com.phonegap.plugins.PushPlugin \
+C:\Dropbox\Waterloo\Research\App\experimenting\hello\platforms\android\assets\www\plugins\com.phonegap.plugins.PushPlugin\www \
+C:\Dropbox\Waterloo\Research\App\experimenting\hello\platforms\android\assets\www\plugins\com.phonegap.plugins.PushPlugin\www\PushNotification.js \
 C:\Dropbox\Waterloo\Research\App\experimenting\hello\platforms\android\assets\www\res\icon \
 C:\Dropbox\Waterloo\Research\App\experimenting\hello\platforms\android\assets\www\res\screen \
 C:\Dropbox\Waterloo\Research\App\experimenting\hello\platforms\android\assets\www\res\icon\android \
