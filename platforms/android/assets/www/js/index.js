@@ -35,7 +35,7 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
 		$(document).ready(function() {
-				alert("jquery loaded");
+				//alert("jquery loaded");
 		});
 		var pushNotification = window.plugins.pushNotification;	
 		pushNotification.register(app.successHandler, app.errorHandler,{"senderID":"827186769524","ecb":"app.onNotificationGCM"});
@@ -56,7 +56,7 @@ var app = {
 	
 	// result contains any message sent from the plugin call
 	successHandler: function(result) {
-		alert('Callback Success! Result = '+result);
+		//alert('Callback Success! Result = '+result);
 	},
 	
 	errorHandler:function(error) {
@@ -70,7 +70,7 @@ var app = {
                 if ( e.regid.length > 0 )
                 {
                     console.log("Regid " + e.regid);
-                    alert('registration id = '+e.regid);
+                    //alert('registration id = '+e.regid);
                 }
             break;
  
