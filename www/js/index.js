@@ -34,25 +34,29 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+		$(document).ready(function() {
+				//alert("jquery loaded");
+		});
+		var pushNotification = window.plugins.pushNotification;	
+		pushNotification.register(app.successHandler, app.errorHandler,{"senderID":"827186769524","ecb":"app.onNotificationGCM"});
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
-		var pushNotification = window.plugins.pushNotification;
+        //var parentElement = document.getElementById(id);
+        //var listeningElement = parentElement.querySelector('.listening');
+		//var receivedElement = parentElement.querySelector('.received');
 		
-		pushNotification.register(app.successHandler, app.errorHandler,{"senderID":"827186769524","ecb":"app.onNotificationGCM"});
 
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
+        //listeningElement.setAttribute('style', 'display:none;');
+		//receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+		alert(id);
     },
 	
 	// result contains any message sent from the plugin call
 	successHandler: function(result) {
-		alert('Callback Success! Result = '+result);
+		//alert('Callback Success! Result = '+result);
 	},
 	
 	errorHandler:function(error) {
@@ -66,7 +70,7 @@ var app = {
                 if ( e.regid.length > 0 )
                 {
                     console.log("Regid " + e.regid);
-                    alert('registration id = '+e.regid);
+                    //alert('registration id = '+e.regid);
                 }
             break;
  
