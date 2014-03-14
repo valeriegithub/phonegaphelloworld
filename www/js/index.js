@@ -34,12 +34,18 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+		new FastClick(document.body);
 		$(document).ready(function() {
-				//alert("jquery loaded");
+			//alert("jquery loaded");
+			//$(function() {
+			//	FastClick.attach(document.body);
+			//});	
 		});
+		
 		var pushNotification = window.plugins.pushNotification;	
 		pushNotification.register(app.successHandler, app.errorHandler,{"senderID":"827186769524","ecb":"app.onNotificationGCM"});
     },
+	
     // Update DOM on a Received Event
     receivedEvent: function(id) {
         //var parentElement = document.getElementById(id);
